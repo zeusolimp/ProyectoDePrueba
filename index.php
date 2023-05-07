@@ -8,7 +8,6 @@
 					<h3>Lo más reciente</h3>
 				</div>
 			</div>
-
 			<section class="row posts">
 				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 				<article class="col-sm-6 post">
